@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salario Semanal</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <strong><h1>Calculadora de Salario Semanal</h1></strong>
+        <div id="tabla" style="margin: 10px;"></div>
+        <form id="formulario">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="number" id="horas" name="horas" class="form-control" placeholder="Horas trabajadas esta semana">
+                    <span class="text-danger" id="error"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton" class="btn btn-primary">Calcular Salario</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="Ejemplo 2-10.js"></script>
+</body>
+</html>
